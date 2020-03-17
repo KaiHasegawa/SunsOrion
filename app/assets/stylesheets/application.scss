@@ -1,0 +1,187 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  width: 100vw;
+  height: 555px;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 170px);
+  opacity: 0;
+  animation: display 10s infinite;
+
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+img:nth-child(6) {
+  animation-delay: 10s;
+}
+img:nth-child(7) {
+  animation-delay: 12s;
+}
+img:nth-child(8) {
+  animation-delay: 14s;
+}
+img:nth-child(9) {
+  animation-delay: 16s;
+}
+img:nth-child(10) {
+  animation-delay: 18s;
+}
+img:nth-child(11) {
+  animation-delay: 20s;
+}
+
+.top-background{
+	width: 100%;
+	height: 100%;
+	background-color: #fafafa;
+}
+.top-visual{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	padding-top: 70px;
+}
+.top-item{
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+	height: 350px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 5px 4px 20px 2px #0000004d;
+	padding-top: 10px;
+	border-radius: 15px;
+}
+.top-title{
+	text-align: center;
+	color: rgba(29, 28, 31, 0.84);
+	margin-bottom: -30px;
+}
+h1{
+	font-family: 'Simonetta'; 
+	font-size: 50px;
+	text-shadow: 1px 2px 1px #808080;
+
+}
+.passbutton{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.button-text{
+	font-family: 'Simonetta'; 
+	font-size: 20px;
+	text-shadow: 2px 1px 4px #808080b0;
+}
+.button-shadow{
+	width: 120px;
+    height: 120px;
+    border-radius: 57px;
+    box-shadow: 0px 9px 10px 2px #0a0303a6;
+    margin: 0 auto;
+}
+input[type="button" i]{
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: double 4px #668ad8;
+  text-align: center;
+  overflow: hidden;
+  transition: .6s;
+}
+input[type="button" i]:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+.top-about{
+	margin: 50px auto;
+    text-align: center;
+    width: 800px;
+    height: 305px;
+    padding-top: 29px;
+    background-color: #44444400;
+    box-shadow: 5px 4px 20px 2px #0000004d;
+    border-radius: 10px;
+}
+.aboutus{
+	font-family: 'Noto Serif JP','Simonetta';
+	font-weight: bold;
+	font-size: 19px;
+	text-shadow: 2px 1px 4px #808080b0;
+
+}
+.insta{
+	text-align: center;
+}
+
+.scroll-fade{opacity: 0; transition: all 2s/*処理にかかる時間*/;}
+.scroll-up{opacity: 0; transform: translateY(100px)/*スクロールアップする距離*/; transition: all 2s/*処理にかかる時間*/;}
+.scroll-up.done, .scroll-fade.done{opacity : 1; transform : translate(0, 0);}
+.load-fade {opacity : 0; transition : all 2s/*処理にかかる時間*/;}
+.load-up{opacity: 0; transform: translateY(100px)/*スクロールアップする距離*/; transition: all 2s/*処理にかかる時間*/;}
+.load-up.done, .load-fade.done{opacity : 1; transform : translate(0, 0);}
