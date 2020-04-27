@@ -82,7 +82,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .cdt_txt {
-    font-size: .5em;
+    font-size: 1.5em;
   }
 }
 
@@ -92,11 +92,10 @@ body {
 }
 
 .cdt_date {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
 }
 
 .cdt_num {
-  background-color: #ffffff;
   padding: 0 .15em;
 }
 
@@ -215,6 +214,7 @@ img:nth-child(11) {
 	width: 100%;
 	height: 100%;
 	background-color: #fafafa;
+  z-index: 100;
 }
 .top-visual{
 	width: 100%;
@@ -243,10 +243,11 @@ h1{
 	text-shadow: 1px 2px 1px #808080;
 
 }
+
 .passbutton{
-	text-align: center;
-	margin: 50px;
-	padding-top: 30px;
+  margin-top: 105px;
+  position: absolute;
+  left: 44%;
 }
 .button-text{
 	font-family: 'Simonetta'; 
@@ -254,64 +255,74 @@ h1{
 	text-shadow: 2px 1px 4px #808080b0;
 }
 .button-shadow{
-	width: 120px;
-    height: 120px;
-    border-radius: 57px;
-    box-shadow: 0px 9px 10px 2px #0a0303a6;
+	width: 160px;
+    height: 90px;
+    box-shadow: 0px 6px 0px 20px hsla(0, 0%, 98%, 0.46);
     margin: 0 auto;
 }
 input[type="button" i]{
   display: inline-block;
   text-decoration: none;
   color: #668ad8;
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
-  border-radius: 50%;
+  width: 160px;
+  height: 100px;
   border: double 4px #668ad8;
   text-align: center;
-  overflow: hidden;
   transition: .6s;
 }
 input[type="button" i]:hover {
-  -webkit-transform: rotateY(1deg);
-  transform: rotateY(360deg);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .top-about{
-	margin: 50px auto;
-    text-align: center;
-    width: 800px;
+	margin: 0 auto;
     height: auto;
     padding-top: 29px;
     margin-bottom: 100px;
-  
+
 }
-.top-about-back {
-    height: 350px;
-    background: url(item7.JPG) no-repeat center center;
-    background-size: cover;
-    margin: 50px 0px 50px 0px;
-}
+
 .top-about-back1 {
     height: 350px;
-    background: url(item5.JPG) no-repeat center center;
+    background: url(A7302490.JPG) no-repeat center center;
     background-size: cover;
-    margin: 50px 0px 50px 0px;
+    margin-bottom: 69px;
+}
+.about_box{
+  height: 65vh;
+  margin-top: 50px;
 }
 .aboutus{
 	font-family: 'Noto Serif JP','Simonetta';
-	font-weight: bold;
-	font-size: 23px;
+	font-size: 80px;
 	text-shadow: 2px 1px 4px #808080b0;
-  margin: 7px;
+  text-align: center;
 }
 .insta{
 	text-align: center;
 }
 
-.scroll-fade{opacity: 0; transition: all 2s/*処理にかかる時間*/;}
-.scroll-up{opacity: 0; transform: translateY(100px)/*スクロールアップする距離*/; transition: all 2s/*処理にかかる時間*/;}
+.scroll-fade{opacity: -10; transition: all 1s/*処理にかかる時間*/;}
+.scroll-up{opacity: -10; transform: translateY(160px)/*スクロールアップする距離*/; transition: all 2s/*処理にかかる時間*/;}
 .scroll-up.done, .scroll-fade.done{opacity : 1; transform : translate(0, 0);}
-.load-fade {opacity : 0; transition : all 2s/*処理にかかる時間*/;}
-.load-up{opacity: 0; transform: translateY(100px)/*スクロールアップする距離*/; transition: all 2s/*処理にかかる時間*/;}
+.load-fade {opacity : 0; transition : all 1s/*処理にかかる時間*/;}
+.load-up{opacity: 0; transform: translateY(160px)/*スクロールアップする距離*/; transition: all 2s/*処理にかかる時間*/;}
 .load-up.done, .load-fade.done{opacity : 1; transform : translate(0, 0);}
+
+.fitImg{
+ width: 100%;
+ background: url('A7302490.JPG') no-repeat;
+ top: 0;
+ position: fixed;
+ z-index: -100;
+}
+.box{
+  height: 100vh;
+}
+.box_top{
+  top: 30%;
+  position: relative;
+}
+.box_contents{
+text-align: center;
+}

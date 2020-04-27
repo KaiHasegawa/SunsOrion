@@ -115,7 +115,7 @@ CountdownTimer.prototype = {
 // ▼ 開始＆終了日時の指定と日付の判別
 function CDT() {
   var myD = Date.now(); // 1970/1/1午前0時から現在までのミリ秒
-  var start = new Date('2020-04-10T00:00+09:00'); // 開始日時の指定
+  var start = new Date('2020-04-30T00:00+09:00'); // 開始日時の指定
   var myS = start.getTime(); // 1970/1/1午前0時からの開始日時までのミリ秒
   var end = new Date('2020-04-01T23:59+09:00'); // 終了日時の指定
   var myE = end.getTime(); // 1970/1/1午前0時から終了日時までのミリ秒
@@ -126,14 +126,14 @@ function CDT() {
     var tl = end;
   } // 期間中
   else if (myS > myD) {
-    var text = '<span>Until</span><span>Open</span>';
+    var text = '<span></span><span></span>';
     var tl = start;
   } // 開始日前
   else {
     var text = "";
   } // 終了日後
 
-  var timer = new CountdownTimer('cdt_date', tl, '<small>終了しました</small>'); // 終了日後のテキスト
+  var timer = new CountdownTimer('cdt_date', tl, '<small></small>'); // 終了日後のテキスト
   timer.countDown();
   target = document.getElementById("cdt_txt");
   target.innerHTML = text;
@@ -141,3 +141,5 @@ function CDT() {
 window.onload = function () {
   CDT();
 }
+
+
