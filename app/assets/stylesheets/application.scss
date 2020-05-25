@@ -286,7 +286,7 @@ input[type="button" i]:hover {
 }
 .top-about-back2 {
   height: 120vh;
-  background: url('A7303765-2.jpg');
+  background: image-url('A7303765-2.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -295,12 +295,6 @@ input[type="button" i]:hover {
   min-height: 60vh;
 }
 
-.about_box{
-  height: auto;
-  min-height: 100vh;
-  background: url('A7304223.jpg');
-  background-size: cover;
-}
 .aboutus{
 	font-family: 'Noto Serif JP','Simonetta';
   color: black;
@@ -325,7 +319,7 @@ input[type="button" i]:hover {
 .load-up.done, .load-fade.done{opacity : 1; transform : translate(0, 0);}
 
 .fitImg{
-  background: url('A7302490.JPG') no-repeat;
+  background: image-url('A7302490.JPG') no-repeat;
   background-position: center;
   background-size: cover;
   top: 0;
