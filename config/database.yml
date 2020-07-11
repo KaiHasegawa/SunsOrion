@@ -22,11 +22,6 @@ test:
 
 production:
   <<: *default
-  database: SunsOrion
-  adapter: mysql2
-  encoding: utf8mb4
-  charset: utf8mb4
-  collation: utf8mb4_general_ci
-  host: rds-mysql-server.cujbbvrhrqt8.ap-northeast-1.rds.amazonaws.com
-  username: root
-  password: Kaiqaz14711
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
