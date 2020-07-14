@@ -39,7 +39,10 @@ body {
   line-height: 1.75em;
 }
 .toplogo{
-  width: 735px;
+  width: 70vh;
+  top: 180px;
+  position: relative;
+  height: 50vh;
 }
 .cdt_wrapper {
   font-weight: bold;
@@ -343,6 +346,7 @@ input[type="button" i]:hover {
   .toplogo{
     width: 265px;
     height: 175px;
+    top: 135px;
   }
   .box_top {
      top: 5%;
