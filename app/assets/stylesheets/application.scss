@@ -344,9 +344,10 @@ input[type="button" i]:hover {
 }
 @media screen and (max-width:425px) {
   .toplogo{
-    width: 265px;
-    height: 175px;
-    top: 135px;
+  width: 42vh;
+  top: 60px;
+  position: relative;
+  height: 50vh;
   }
   .box_top {
      top: 5%;
