@@ -322,7 +322,6 @@ input[type="button" i]:hover {
 .load-up.done, .load-fade.done{opacity : 1; transform : translate(0, 0);}
 
 .fitImg{
-  background: image-url('A7302490.JPG') no-repeat;
   background-position: center;
   background-size: cover;
   top: 0;
@@ -344,10 +343,10 @@ input[type="button" i]:hover {
 }
 @media screen and (max-width:425px) {
   .toplogo{
-  width: 210px;
-  top: 60px;
-  position: initial;
-  height: 130px;
+     width: 45vh;
+    top: 60px;
+    position: initial;
+    height: 37vh;
   }
   .box_top {
      top: 5%;
@@ -355,6 +354,7 @@ input[type="button" i]:hover {
   }
   .box{
     height: 68vh;
+    background: image-url('A7303765-2.jpg');
   }
   .cdt{
     margin-top: initial;
@@ -372,7 +372,7 @@ input[type="button" i]:hover {
     font-size: 1.8rem;
     padding: 0 20px;
     position: relative;
-    top: 130px;
+    top: 5px;
   }
   .aboutus{
     font-size: 18px;
@@ -402,4 +402,5 @@ input[type="button" i]:hover {
     width: 400px;
     height: 225px;
   }
+
 }
