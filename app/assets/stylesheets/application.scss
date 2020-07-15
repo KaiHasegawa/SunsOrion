@@ -343,9 +343,9 @@ input[type="button" i]:hover {
 }
 @media screen and (max-width:425px) {
   .toplogo{
-     width: 45vh;
+    width: 52vh;
     top: 60px;
-    position: initial;
+    position: relative;
     height: 37vh;
   }
   .box_top {
@@ -374,7 +374,7 @@ input[type="button" i]:hover {
     font-size: 1.8rem;
     padding: 0 20px;
     position: relative;
-    top: 5px;
+    top: 90px;
   }
   .aboutus{
     font-size: 18px;
@@ -395,8 +395,8 @@ input[type="button" i]:hover {
     height: 55px;
   }
   .button-shadow{
-    width: 100px;
-    height: 54px;
+    width: 97px;
+    height: 50px;
     border-radius: 15px;
     box-shadow: 0px 0px 0px 10px rgba(250, 250, 250, 0.46);
   }
