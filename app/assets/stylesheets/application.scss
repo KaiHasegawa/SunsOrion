@@ -254,6 +254,7 @@ h1{
 .passbutton{
   position: relative;
   top: 40%;
+  text-align: center;
 }
 .button-text{
 	font-family: 'Simonetta';
@@ -348,7 +349,7 @@ input[type="button" i]:hover {
 .btn-cross {
   display: inline-block;
   position: relative;
-  padding: 0.25em 1em;
+  padding: 3.5em 6em;
   border-top: solid 2px black;
   border-bottom: solid 2px black;
   text-decoration: none;
