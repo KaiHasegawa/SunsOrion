@@ -289,7 +289,7 @@ input[type="button" i]:hover {
 }
 .top-about-back2 {
   height: 120vh;
-  background: image-url('A7303765-2.jpg');
+  background: image-url('A7304780.JPG');
   background-position: center;
   background-size: cover;
 }
@@ -331,6 +331,9 @@ input[type="button" i]:hover {
 }
 .box{
   height: 100vh;
+  background: image-url('IMG_6594.JPG');
+  background-position: center;
+  background-size: cover;
 }
 .box_top{
   position: relative;
@@ -356,9 +359,6 @@ input[type="button" i]:hover {
   }
   .box{
     height: 94vh;
-    background: image-url('A7304223.jpg');
-    background-position: center;
-    background-size: cover;
   }
   .cdt{
     margin-top: initial;
@@ -369,7 +369,7 @@ input[type="button" i]:hover {
     margin: 0 auto;
   }
   .cdt_date {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .cdt_wrapper {
     line-height: 2.5;
@@ -408,21 +408,18 @@ input[type="button" i]:hover {
   }
 
   @media screen and (max-width: 1024px) and (orientation: portrait){
-      .toplogo{
-    width: 52vh;
+  .toplogo{
+    width: 42vh;
     top: 60px;
     position: relative;
-    height: 37vh;
+    height: 32vh;
   }
   .box_top {
-     top: 5%;
-     position: relative;
+    top: 5%;
+    position: relative;
   }
   .box{
     height: 94vh;
-    background: image-url('A7304223.jpg');
-    background-position: center;
-    background-size: cover;
   }
   .cdt{
     margin-top: initial;
@@ -433,7 +430,7 @@ input[type="button" i]:hover {
     margin: 0 auto;
   }
   .cdt_date {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .cdt_wrapper {
     line-height: 2.5;
