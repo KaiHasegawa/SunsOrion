@@ -253,7 +253,7 @@ h1{
 }
 .passbutton{
   position: relative;
-  top: 38%;
+  top: 21%;
   text-align: center;
 }
 .button-text{
@@ -367,10 +367,10 @@ input[type="button" i]:hover {
   transition: .3s;
 }
 .btn-cross:before {
-  left: 7px;
+  left: 9px;
 }
 .btn-cross:after {
-  right: 7px;
+  right: 9px;
 }
 .btn-cross:hover:before {
   top: 0px;
