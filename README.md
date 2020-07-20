@@ -1,24 +1,12 @@
-# README
+# Sun's Orion
+====================================================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Overview
+Sun's Orion is clothes bland landing page.
+![Uploading スクリーンショット 2020-07-20 10.45.29.png…]()
 
-Things you may want to cover:
+# Description
+In addition to the current display, you can implement a countdown of shop opening and a password function to the shop
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Author
+[KaiHasegawa]https://github.com/KaiHasegawa
